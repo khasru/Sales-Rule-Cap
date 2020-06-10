@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <preference for="Magento\SalesRule\Model\Rule\Action\Discount\CalculatorFactory"
+                type="Scriptlodge\SalesRuleCap\Model\Rule\Action\Discount\CalculatorFactory" />
+    <preference for="Magento\SalesRule\Model\Quote\Discount" type="Scriptlodge\SalesRuleCap\Model\Quote\Discount" />
+    <preference for="Magento\SalesRule\Model\Validator"
+                type="Scriptlodge\SalesRuleCap\Model\Validator" />
+    <preference for="Magento\SalesRule\Model\RulesApplier"
+                type="Scriptlodge\SalesRuleCap\Model\RulesApplier" />
+    <preference for="Magento\SalesRule\Model\Rule\Metadata\ValueProvider"
+                type="Scriptlodge\SalesRuleCap\Model\Rule\Metadata\ValueProvider" />
+</config>
